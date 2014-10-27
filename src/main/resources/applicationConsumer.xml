@@ -15,9 +15,7 @@
     <dubbo:reference id="demoService" interface="com.springapp.mvc.dubbox.service.DemoService"/>
     <!--<dubbo:annotation package="*" />-->
 
-    <bean class="com.springapp.mvc.dubbox.consumer.ChatController">
-        <property name="demoService" ref="demoService" />
-    </bean>
+    
 
 
 </beans>

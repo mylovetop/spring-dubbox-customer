@@ -17,4 +17,6 @@
         <property name="suffix" value=".jsp"/>
     </bean>
 
+    <import resource="classpath*:applicationConsumer.xml"></import>
+
 </beans>

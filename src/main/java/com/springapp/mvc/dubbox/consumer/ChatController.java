@@ -15,7 +15,7 @@ import java.util.List;
 @Controller
 public class ChatController {
 
-
+    @Autowired
     private DemoService demoService;
 
     @RequestMapping("/")
@@ -29,9 +29,7 @@ public class ChatController {
     }
 
 
-    public void setDemoService(DemoService demoService) {
-        this.demoService = demoService;
-    }
+
 
 
     public static void main(String[] args) throws Exception {
