@@ -15,7 +15,7 @@
     <dubbo:reference id="demoService" interface="com.springapp.mvc.dubbox.service.DemoService"/>
     <!--<dubbo:annotation package="*" />-->
 
-    
+
 
 
 </beans>
